@@ -1,0 +1,26 @@
+button {
+    background-color: var(--color-brand-1);
+    border-radius: var(--radius-1);
+    padding: 15.5px 34px;
+    border: none;
+}
+
+input, input::placeholder {
+    font-family: var(--font-family-1);
+    line-height: var(--line-height-3);
+    font-size: var(--font-size-3);
+    padding: 15.5px 24px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+}
+
+input::placeholder {
+    color: var(--color-grey-5);
+}
+
+input {
+    background-color: var(--color-grey-2);
+    border-radius: var(--radius-1);
+    color: var(--color-grey-3);
+}
